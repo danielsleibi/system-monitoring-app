@@ -1,0 +1,8 @@
+2022-09-25 22:44:57,702 DEBUG    Entered init
+2022-09-25 22:44:57,721 INFO     Setup DB
+2022-09-25 22:44:57,721 DEBUG    Exited  init
+2022-09-25 22:44:57,730 INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2022-09-25 22:44:57,730 INFO     [33mPress CTRL+C to quit[0m

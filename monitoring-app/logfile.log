@@ -1,0 +1,93 @@
+2022-09-26 00:16:44,667 DEBUG    Entered setUp
+2022-09-26 00:16:44,667 DEBUG    Exited  setUp
+2022-09-26 00:16:44,667 DEBUG    Entered test_get_all__usage_type_value
+2022-09-26 00:16:44,667 DEBUG    Entered get_all_usage
+2022-09-26 00:16:44,667 INFO     Usage type is t
+2022-09-26 00:16:44,667 DEBUG    Test finished
+2022-09-26 00:16:44,667 DEBUG    Exited  test_get_all__usage_type_value
+2022-09-26 00:16:44,667 DEBUG    Entered tearDown
+2022-09-26 00:16:44,667 DEBUG    Exited  tearDown
+2022-09-26 00:16:44,667 DEBUG    Entered setUp
+2022-09-26 00:16:44,667 DEBUG    Exited  setUp
+2022-09-26 00:16:44,667 DEBUG    Entered test_get_all_usage_return_type
+2022-09-26 00:16:44,668 DEBUG    Entered get_all_usage
+2022-09-26 00:16:44,668 INFO     Usage type is c
+2022-09-26 00:16:44,679 DEBUG    Exited  get_all_usage
+2022-09-26 00:16:44,679 DEBUG    Entered get_all_usage
+2022-09-26 00:16:44,679 INFO     Usage type is d
+2022-09-26 00:16:44,688 DEBUG    Exited  get_all_usage
+2022-09-26 00:16:44,688 DEBUG    Entered get_all_usage
+2022-09-26 00:16:44,688 INFO     Usage type is m
+2022-09-26 00:16:44,694 DEBUG    Exited  get_all_usage
+2022-09-26 00:16:44,695 DEBUG    Test finished
+2022-09-26 00:16:44,695 DEBUG    Exited  test_get_all_usage_return_type
+2022-09-26 00:16:44,695 DEBUG    Entered tearDown
+2022-09-26 00:16:44,695 DEBUG    Exited  tearDown
+2022-09-26 00:16:44,695 DEBUG    Entered setUp
+2022-09-26 00:16:44,695 DEBUG    Exited  setUp
+2022-09-26 00:16:44,695 DEBUG    Entered test_get_all_usage_type_param
+2022-09-26 00:16:44,695 DEBUG    Entered get_usage
+2022-09-26 00:16:44,695 DEBUG    Entered get_usage
+2022-09-26 00:16:44,695 DEBUG    Entered get_usage
+2022-09-26 00:16:44,695 DEBUG    Entered get_usage
+2022-09-26 00:16:44,696 INFO     Usage type is %s
+2022-09-26 00:16:44,696 DEBUG    Entered get_usage
+2022-09-26 00:16:44,696 INFO     Usage type is %s
+2022-09-26 00:16:44,696 DEBUG    Entered get_usage
+2022-09-26 00:16:44,696 DEBUG    Test finished
+2022-09-26 00:16:44,696 DEBUG    Exited  test_get_all_usage_type_param
+2022-09-26 00:16:44,696 DEBUG    Entered tearDown
+2022-09-26 00:16:44,696 DEBUG    Exited  tearDown
+2022-09-26 00:16:44,696 DEBUG    Entered setUp
+2022-09-26 00:16:44,696 DEBUG    Exited  setUp
+2022-09-26 00:16:44,696 DEBUG    Entered test_get_usage_hour_param
+2022-09-26 00:16:44,696 DEBUG    Entered get_usage
+2022-09-26 00:16:44,696 INFO     Usage type is c
+2022-09-26 00:16:44,696 DEBUG    Entered get_usage
+2022-09-26 00:16:44,697 INFO     Usage type is d
+2022-09-26 00:16:44,697 DEBUG    Entered get_usage
+2022-09-26 00:16:44,697 INFO     Usage type is m
+2022-09-26 00:16:44,697 DEBUG    Test finished
+2022-09-26 00:16:44,697 DEBUG    Exited  test_get_usage_hour_param
+2022-09-26 00:16:44,697 DEBUG    Entered tearDown
+2022-09-26 00:16:44,697 DEBUG    Exited  tearDown
+2022-09-26 00:16:44,697 DEBUG    Entered setUp
+2022-09-26 00:16:44,697 DEBUG    Exited  setUp
+2022-09-26 00:16:44,697 DEBUG    Entered test_get_usage_return_type
+2022-09-26 00:16:44,697 DEBUG    Entered get_usage
+2022-09-26 00:16:44,697 INFO     Usage type is c
+2022-09-26 00:16:44,703 DEBUG    Exited  get_usage
+2022-09-26 00:16:44,703 DEBUG    Entered get_usage
+2022-09-26 00:16:44,703 INFO     Usage type is d
+2022-09-26 00:16:44,709 DEBUG    Exited  get_usage
+2022-09-26 00:16:44,710 DEBUG    Entered get_usage
+2022-09-26 00:16:44,710 INFO     Usage type is m
+2022-09-26 00:16:44,716 DEBUG    Exited  get_usage
+2022-09-26 00:16:44,716 DEBUG    Test finished
+2022-09-26 00:16:44,716 DEBUG    Exited  test_get_usage_return_type
+2022-09-26 00:16:44,716 DEBUG    Entered tearDown
+2022-09-26 00:16:44,716 DEBUG    Exited  tearDown
+2022-09-26 00:16:44,716 DEBUG    Entered setUp
+2022-09-26 00:16:44,716 DEBUG    Exited  setUp
+2022-09-26 00:16:44,717 DEBUG    Entered test_get_usage_type_param
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,717 INFO     Usage type is %s
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,717 INFO     Usage type is %s
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,717 DEBUG    Test finished
+2022-09-26 00:16:44,717 DEBUG    Exited  test_get_usage_type_param
+2022-09-26 00:16:44,717 DEBUG    Entered tearDown
+2022-09-26 00:16:44,717 DEBUG    Exited  tearDown
+2022-09-26 00:16:44,717 DEBUG    Entered setUp
+2022-09-26 00:16:44,717 DEBUG    Exited  setUp
+2022-09-26 00:16:44,717 DEBUG    Entered test_get_usage_type_value
+2022-09-26 00:16:44,717 DEBUG    Entered get_usage
+2022-09-26 00:16:44,718 INFO     Usage type is t
+2022-09-26 00:16:44,718 DEBUG    Test finished
+2022-09-26 00:16:44,718 DEBUG    Exited  test_get_usage_type_value
+2022-09-26 00:16:44,718 DEBUG    Entered tearDown
+2022-09-26 00:16:44,718 DEBUG    Exited  tearDown
