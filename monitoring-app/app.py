@@ -86,13 +86,5 @@ def memory_usage():
 def memory_usage_current():
     return get_memory_usage()
 
-# api to setup database
-
-
-@app.route("/api/setup")
-def reset():
-    init()
-    return {"message": "database setup"}
-
 
 app.run()
