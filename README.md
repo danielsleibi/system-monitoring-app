@@ -17,7 +17,7 @@ Default enviroment variables are:
 
 ## MYSQL Database
 **The application _will_ create missing tables in the database on startup but it _will not_ create a new database**
-To create a containarized database using docker, replace inside the cotations('') and run the command:
+To create a containarized database using docker, replace inside the quotations('') and run the command:
 > \# docker run --name *'NAME_OF_CONTAINER'* -p *'ANY_EMPTY_PORT'*:3306 -e MY_SQL_ROOT_PASSWORD=*'PASSWORD'* -d mysql
 
 *Please note the you must run and set enviroment variables for the application after creating the database*
@@ -34,3 +34,30 @@ To build the image, run command:
 
 To run the built image, run command:
 > \# docker run *IMAGE_ID* -p 5000:5000 --env DB_HOST=*ip* --env DB_PORT=*port* --env DB_NAME=*name* --env DB_USER=*username* --env DB_PASSWORD=*password*, 
+
+## APIs
+The application has 6 APIs, see the following list:
+- /api/cpu_util
+- /api/cpu_util_current
+- /api/disk_usage
+- /api/disk_usage_current
+- /api/memory_usage
+- /api/memory_usage_current
+
+*2 parameters can be used all, and hour, only use without the APIs that have _'current'_ in their names*
+
+*Please note if you use the hour parameter with all it will not have any effect and will return all usage data regardless of the specified hour*
+
+Examples:
+- /api/cpu_util
+
+Would return all cpu utilization for the current day
+
+- /api/cpu_util?hour=10
+
+Would return cpu utilization for the 10th hour of the current day
+
+- /api/cpu_util?all=true
+
+Would return all cpu utilization stored in the database regardless of time
+
