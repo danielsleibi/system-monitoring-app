@@ -6,11 +6,11 @@ from os import environ
 
 # database information
 # retrieved from enivorment variable or default if does not exists
-DB_HOST = environ.get('DB_HOST', "172.17.0.1")
+DB_HOST = environ.get('DB_HOST', "0.0.0.0")
 DB_NAME = environ.get("DB_NAME", "system_data")
-DB_PORT = environ.get("DB_PORT", "13306")
+DB_PORT = environ.get("DB_PORT", "3306")
 DB_USER = environ.get("DB_USER", "root")
-DB_PASSWORD = environ.get("DB_PASSWORD", "12345")
+DB_PASSWORD = environ.get("DB_PASSWORD", "")
 
 # tables, variable used in determining table name for each usage type
 types = {"c":  "cpu_usage", "d": "disk_usage", "m": "memory_usage"}
