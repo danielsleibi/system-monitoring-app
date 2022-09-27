@@ -25,7 +25,7 @@ To create a containarized database using docker, replace inside the quotations('
 ## Application on Docker
 A Dockerfile is avaiable with the project also an image is published on dockerhub.
 
-*link for image: DONT FORGET TO ADD LINK*
+*link for image: [danielsleibi/monitoring-app](https://hub.docker.com/repository/docker/danielsleibi/monitoring-app)*
 
 To build the image, run command:
 > \# docker build .
@@ -33,7 +33,7 @@ To build the image, run command:
 *Please note that the cwd must be this projects directory*
 
 To run the built image, run command:
-> \# docker run *IMAGE_ID* -p 5000:5000 --env DB_HOST=*ip* --env DB_PORT=*port* --env DB_NAME=*name* --env DB_USER=*username* --env DB_PASSWORD=*password*, 
+> \# docker run -p 5000:5000 --env DB_HOST=*ip* --env DB_PORT=*port* --env DB_NAME=*name* --env DB_USER=*username* --env DB_PASSWORD=*password* -d *IMAGE_ID*
 
 ## APIs
 The application has 6 APIs, see the following list:
